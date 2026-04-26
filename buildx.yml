@@ -1,0 +1,6 @@
+sudo mkdir -p /usr/libexec/docker/cli-plugins
+
+sudo curl -SL https://github.com/docker/buildx/releases/latest/download/buildx-linux-amd64 \
+-o /usr/libexec/docker/cli-plugins/docker-buildx
+
+sudo chmod +x /usr/libexec/docker/cli-plugins/docker-buildx
