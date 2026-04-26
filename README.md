@@ -18,3 +18,8 @@ docker compose up --build -d
 
 ## Live Demo
 http://43.205.213.98
+
+## Monitoring Dashboard
+
+![Monitoring](screenshot.png)
+
